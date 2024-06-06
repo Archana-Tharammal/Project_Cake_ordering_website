@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<br><br>
+
+<a class="btn btn-outline-success" href="http://127.0.0.1:8000/a">Continue Shopping</a>
+
+<form class="custom-form" action="http://127.0.0.1:8000/success">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" required><br>
+
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city" required><br>
+
+  <label for="country">Country:</label><br>
+  <input type="text" id="country" name="country" required><br>
+
+  <label for="zipcode">Zip Code:</label><br>
+  <input type="text" id="zipcode" name="zipcode" required><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

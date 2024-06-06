@@ -1,0 +1,211 @@
+body{
+    background-image: url("cakes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ /* navbar styling */
+ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+li a{
+
+        display:inline;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px ;
+        text-decoration: none;
+    }
+
+li a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+.active{
+        background-color:#111;
+    }
+
+/* Home */
+
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(-0.5, 0, 0, 0.5);
+}
+
+.div1 {
+  width: 800px;
+  height: 300px;
+  margin-top:100px;
+  padding:100px;
+}
+
+p1{
+color:white;
+font-size:80px;
+text-align: center;
+font-style: oblique;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+}
+p2{
+color:black;
+font-size:30px;
+font-family: Arial, Helvetica, sans-serif;
+padding:60px;
+}
+
+.a1:link, .a1:visited {
+        background-color:brown;
+        color: white;
+        padding: 20px 25px;
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 150px;
+      }
+.a1:hover, .a1:active {
+        background-color:darkgrey;
+        color:black;
+      }
+
+
+/* index */
+.div3 {
+  width: 100px;
+  height: 100px;
+padding-left:700px;
+
+}
+p7{
+color:black;
+font-size:50px;
+text-align: center;
+font-style: oblique;
+font-weight: bold;
+}
+
+h5{
+color: yellow;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+
+}
+/* cards*/
+
+h3{
+color:rgb(63, 4, 4);
+font-size:20px;
+text-align: center;
+font-style: oblique;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+h4{
+color:black;
+font-size:15px;
+text-align: left;
+font-style: oblique;
+font-family: "Times New Roman", Times, serif;
+}
+.a2:link, .a2:visited {
+        background-color:brown;
+        color: white;
+        padding: 10px 25px;
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 100px;
+      }
+.a2:hover, .a2:active {
+        background-color:darkgrey;
+        color:black;
+      }
+
+.a3:link, .a3:visited {
+        background-color:brown;
+        color: white;
+        padding: 10px 25px;
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 200px;
+      }
+.a3:hover, .a3:active {
+        background-color:darkgrey;
+        color:black;
+      }
+
+h5{
+font-family: "Times New Roman", Times, serif;
+}
+p4{
+color:white;
+font-size:20px;
+text-align: center;
+font-style: oblique;
+
+}
+
+
+/* details*/
+form.custom-form {
+  width: 500px;
+  margin:30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form.custom-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color:black;
+}
+
+form.custom-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+form.custom-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form.custom-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* success*/
+
+.div2 {
+  width: 800px;
+  height: 300px;
+  margin-top:100px;
+  padding:100px;
+}
+p5{
+color:black;
+font-size:50px;
+text-align: center;
+font-style: oblique;
+
+}
